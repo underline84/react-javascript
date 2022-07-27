@@ -15,7 +15,7 @@ export const Formulario = (props) => {
 
     const aoSalvar = (evento) => {
         evento.preventDefault()
-        props.aoNovoColaboradorAdicionado({
+        props.aoColaboradorCadastrado({
             nome,
             cargo,
             imagem,
